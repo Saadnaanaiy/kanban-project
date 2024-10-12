@@ -1,0 +1,32 @@
+.home-container {
+  position: relative;
+  width: 90%;
+  height: 600px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 20px;
+  margin-left: 64px;
+}
+
+.video-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: -1; /* Send video to background */
+  transform: translate(-50%, -50%);
+}
+
+.overlay-content {
+  z-index: 1; /* Bring overlay content in front */
+  text-align: center;
+  padding: 20px;
+  background: rgba(158, 157, 157, 0.636); /* Semi-transparent background */
+  border-radius: 15px; /* Rounded corners */
+}

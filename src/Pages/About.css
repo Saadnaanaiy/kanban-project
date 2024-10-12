@@ -1,0 +1,31 @@
+.card {
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effects */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.25rem; /* Increased font size for titles */
+  color: #007bff; /* Primary color for titles */
+}
+
+.card-text {
+  margin-bottom: 1rem;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center; /* Center icons vertically */
+  font-size: 1rem; /* Consistent font size */
+}
+
+.list-group-item svg {
+  margin-right: 8px; /* Add space between icon and text */
+  color: #007bff; /* Customize icon color */
+  width: 1.5em; /* Consistent icon size */
+  height: 1.5em;
+}

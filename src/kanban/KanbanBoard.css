@@ -1,0 +1,77 @@
+/* KanbanBoard.css */
+
+.kanban-board {
+  padding: 20px;
+  background-color: #f4f5f7;
+}
+
+.kanban-column {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-height: 400px;
+}
+
+.kanban-column h5 {
+  background-color: #0052cc; /* Jira-like blue */
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+}
+
+.kanban-column:last-child {
+  margin-right: 0;
+}
+
+.card {
+  border-radius: 8px;
+  border: none;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.kanban-column .mb-3 {
+  margin-bottom: 20px;
+}
+
+.kanban-column ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.kanban-column ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.kanban-column ul li svg {
+  margin-right: 8px;
+}
+
+.btn-primary {
+  background-color: #0052cc;
+  border-color: #0052cc;
+}
+
+.btn-primary:hover {
+  background-color: #0747a6;
+  border-color: #0747a6;
+}

@@ -1,0 +1,70 @@
+/* App.css */
+
+.collapse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 38%;
+}
+
+ul {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* Style the navbar */
+.custom-navbar {
+  background-color: #ffffff; /* White background */
+  border-bottom: 1px solid #eaeaea; /* Light border on bottom */
+  padding: 1rem 2rem; /* Padding to make it look more spacious */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.custom-brand {
+  font-size: 1.5rem; /* Larger font size for brand/logo */
+  font-weight: bold; /* Bold logo text */
+  color: #0070f3; /* Next.js-like blue color */
+  text-transform: uppercase; /* Capital letters for brand name */
+}
+
+.custom-brand:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style the links */
+.custom-link {
+  color: #333333; /* Dark gray text for links */
+  font-size: 1.1rem; /* Slightly larger font for links */
+  padding: 0.5rem 1rem; /* Space around links */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.custom-link:hover {
+  color: #0070f3; /* Blue color on hover */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Responsive navbar */
+.navbar-toggler {
+  border: none; /* Remove border from toggler button */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Mobile menu links */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    text-align: center; /* Center links on small screens */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-bottom: 1rem; /* Add space between links on mobile */
+  }
+}
